@@ -1,5 +1,6 @@
 # RHEL-With-VNC-AT-AWS
-This project contains a user data script that will setup VNC server at port 5901 for user joevnc for a RHEL 7.3 ec2 instance at AWS.
+This project contains a user data script that will setup VNC server at port 5901 for user joevnc for a RHEL 7.4 ec2 instance at AWS. Till RHEL 7.3 XRDP was working quite fine. But with RHEL 7.4 it does not work anymore. Otherwise this AWS [blog] (https://aws.amazon.com/premiumsupport/knowledge-center/connect-to-rhel-73-windows/) was very handy. 
+
 A few points to be pondered:
 
 * The script is quite self explanatory. Hope it will help others as it has helped me.
