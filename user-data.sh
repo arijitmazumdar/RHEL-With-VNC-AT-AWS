@@ -6,6 +6,7 @@ exec > >(tee /var/log/user-data.log|logger -t user-data ) 2>&1
 echo BEGIN
 date '+%Y-%m-%d %H:%M:%S'
 
+yum update -y
 yum install -y tigervnc-server
 yum groupinstall -y "X Window System"
 yum install -y gnome-classic-session gnome-terminal nautilus-open-terminal control-center liberation-mono-fonts firefox
